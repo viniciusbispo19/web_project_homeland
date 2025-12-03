@@ -1,5 +1,18 @@
-.about {}
+.about {
+    font-family: Inter;
+}
 
-.about__title {}
+.about__title {
+    font-family: Inter;
+    font-weight: 900;
+}
 
-.about__subtitle {}
+.about__subtitle {
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.about__image {
+    width: 984px;
+    height: 615px;
+}
