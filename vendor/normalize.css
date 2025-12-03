@@ -1,0 +1,234 @@
+/* ============================================================
+   RESET / NORMALIZE CSS COMPLETO
+   Compatível com navegadores modernos
+   Reescrito do zero — Não contém código de normalize.css oficial
+   ============================================================ */
+
+
+/* ------------------------------
+   1. BASE GLOBAL
+------------------------------ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+               Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+/* ------------------------------
+   2. TIPOGRAFIA
+------------------------------ */
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sub { bottom: -0.25em; }
+sup { top: -0.5em; }
+
+
+/* ------------------------------
+   3. LINKS
+------------------------------ */
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* ------------------------------
+   4. LISTAS
+------------------------------ */
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+dl,
+dd {
+  margin: 0;
+}
+
+
+/* ------------------------------
+   5. MÍDIA
+------------------------------ */
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+
+/* Corrige o overflow de SVG em alguns browsers */
+svg {
+  overflow: hidden;
+}
+
+
+/* ------------------------------
+   6. TABELAS
+------------------------------ */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0;
+}
+
+
+/* ------------------------------
+   7. FORMULÁRIOS
+------------------------------ */
+
+input,
+button,
+textarea,
+select {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Remove estilos padrão de botões */
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  appearance: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Remove setas de inputs number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  margin: 0;
+  appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Ajusta inputs de search no Safari/Chrome */
+input[type="search"] {
+  appearance: none;
+  outline-offset: -2px;
+}
+
+::placeholder {
+  opacity: 0.6;
+}
+
+
+/* ------------------------------
+   8. ACESSIBILIDADE
+------------------------------ */
+
+:focus {
+  outline: 2px solid #0b5cff;
+  outline-offset: 2px;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+
+/* ------------------------------
+   9. ELEMENTOS INTERATIVOS
+------------------------------ */
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+  cursor: pointer;
+}
+
+
+/* ------------------------------
+   10. DIVERSOS
+------------------------------ */
+
+/* Evita “saltos” ao mudar para scroll */
+html {
+  scrollbar-gutter: stable both-edges;
+}
+
+/* Mantém botões sem quebrar texto */
+button {
+  white-space: nowrap;
+}
+
+/* Previne overflow de longos blocos */
+body {
+  overflow-wrap: anywhere;
+}
