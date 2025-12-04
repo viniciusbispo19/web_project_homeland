@@ -1,0 +1,29 @@
+.hero {
+    font-family: Inter;
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+.hero__title {
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.hero__subtitle {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.hero__image {
+    width: 984px;
+    height: 615px;
+    margin-top: 64px;
+}
