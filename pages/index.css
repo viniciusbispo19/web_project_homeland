@@ -6,8 +6,3 @@
 @import url(../blocks/intro.css);
 @import url(../blocks/footer.css);
 @import url(../vendor/fonts.css);
-
-body {
-    background-color: #2A2C2F;
-    color: #fff;
-}
