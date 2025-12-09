@@ -8,7 +8,7 @@
 }
 
 .hero__title {
-    width: 720px;
+    max-width: 720px;
     height: 200px;
     font-family: Inter;
     font-weight: 900;
@@ -19,7 +19,7 @@
 }
 
 .hero__subtitle {
-    width: 720px;
+    max-width: 720px;
     height: 72px;
     font-family: Inter;
     font-weight: 400;
@@ -30,8 +30,7 @@
 }
 
 .hero__image {
-    width: 984px;
-    height: 615px;
+    width: 100%;
     margin-top: 64px;
 }
 
@@ -51,8 +50,7 @@
     }
 
     .hero__subtitle {
-        width: 720px;
-        height: 72px;
+        max-width: 720px;
         font-family: Inter;
         font-weight: 400;
         font-size: 30px;
@@ -62,8 +60,6 @@
     }
 
     .hero__image {
-        width: 768px;
-        height: 480px;
         margin-top: 30px;
     }
 }
@@ -98,8 +94,6 @@
     }
 
     .hero__image {
-        width: 320px;
-        height: 200px;
         margin-top: 40px;
     }
 }
